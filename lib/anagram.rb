@@ -11,6 +11,7 @@ class Anagram
     (array).each do |element|
       if (element.split("").sort) == (@word.split("").sort)
         return_array << element
+      end
     end
     return_array
   end
